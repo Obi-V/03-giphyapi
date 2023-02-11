@@ -1,0 +1,18 @@
+<section class="m-3 border border-dark">
+    <h3 class="m-2">Buscar Gifs:</h3>
+
+<form (keyup.enter)=" limiteGif(limite) ;buscar(txtquery)">
+<input class="m-2" type="text"
+placeholder="buscar gifs..."
+#txtquery >
+<label>1</label>
+<input type="range" id="nGif" name="nGif" min="1" max="50" [(ngModel)]=limite>
+<label>50</label>
+</form>
+<br>
+    <ul class="row p-0 mt-2">
+        <li class="col-2 m-2" *ngFor="let gif of resultados" style="list-style: none;">
+            <img class="img-fluid" [src]="gif.images.downsized.url">
+        </li>
+    </ul>
+</section>
