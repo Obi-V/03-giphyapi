@@ -31,5 +31,11 @@ Una vez que la aplicación esté en funcionamiento, podrás explorar la amplia c
 
 La aplicación también cuenta con una barra lateral que muestra el historial de búsqueda reciente. Este historial se guarda en el local storage del navegador, lo que te permite acceder rápidamente a tus búsquedas anteriores y retomar donde lo dejaste. Esta funcionalidad te brinda una experiencia más fluida y personalizada al explorar gifs.
 
+## Curso
+Todas estas aplicaciones son sacadas del curso de Fernando herrera [Angular: De cero a experto](https://www.udemy.com/course/angular-fernando-herrera/), recomiendo comprarlo ya que en el curso se explica todo muchísimo mejor y más detalladamente, además el curso se actualiza cada poco tiempo.  
+
+Muy buen curso, lo recomiendo siempre que tengas tiempo.
+
 
 ### Texto creado con la ayuda de chatGTP
+
