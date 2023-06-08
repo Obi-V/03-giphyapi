@@ -32,4 +32,4 @@ Una vez que la aplicación esté en funcionamiento, podrás explorar la amplia c
 La aplicación también cuenta con una barra lateral que muestra el historial de búsqueda reciente. Este historial se guarda en el local storage del navegador, lo que te permite acceder rápidamente a tus búsquedas anteriores y retomar donde lo dejaste. Esta funcionalidad te brinda una experiencia más fluida y personalizada al explorar gifs.
 
 
-### Texto creado con la ayuda chatGTP
+### Texto creado con la ayuda de chatGTP
