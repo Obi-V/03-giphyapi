@@ -1,27 +1,35 @@
-# Giphyapi
+# Aplicación de Gifs
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
+¡Bienvenido a la aplicación de Gifs! Esta aplicación te permitirá explorar y descubrir una amplia colección de gifs de todo tipo.
 
-## Development server
+## Características
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Explorar y buscar gifs por palabras clave, categorías o etiquetas.
+- Obtener gifs aleatorios para sorprenderte con contenido nuevo.
+- Buscar tus gifs favoritos para acceder fácilmente a ellos en el futuro.
+- Integración con la [API de Giphy](https://api.giphy.com) para obtener los gifs más recientes y populares.
 
-## Code scaffolding
+## LocalStorage
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+El local storage es una característica del navegador que permite almacenar datos de forma persistente en el dispositivo del usuario. En el caso de la aplicación de Gifs, se utiliza el local storage para guardar y mantener el historial de búsqueda reciente. Esto significa que aunque cierres la aplicación o reinicies el navegador, tus búsquedas anteriores seguirán estando disponibles en la barra lateral.
 
-## Build
+Es importante tener en cuenta que el local storage tiene un límite de capacidad y los datos guardados se mantienen en el dispositivo del usuario, lo que implica que no están disponibles en otros dispositivos o navegadores. Sin embargo, el local storage proporciona una forma sencilla y conveniente de almacenar datos en el navegador sin necesidad de utilizar una base de datos externa.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Instalación
 
-## Running unit tests
+1. Clona el repositorio: `git clone https://github.com/Obi-V/03-giphyapi.git`
+2. Navega hasta el directorio del proyecto: `cd 03-giphyapi.git`(Tu ruta)
+3. Instala las dependencias: `npm install`
+4. Inicia la aplicación: `ng serve` o `ng serve -o`(Se abre automáticamente)
+5. Abre tu navegador y visita: `http://localhost:4200`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Uso
 
-## Running end-to-end tests
+Esta serie de aplicaciones son para experimentar el funcionamiento de Angular, pero recomiendo complementar con más información y videos que podreis encontrar gratis en Youtube.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Una vez que la aplicación esté en funcionamiento, podrás explorar la amplia colección de gifs disponibles. Utiliza la barra de búsqueda para encontrar gifs relacionados con palabras clave específicas o explora las categorías y etiquetas populares para descubrir nuevo contenido. Además, puedes guardar tus gifs favoritos y compartirlos con tus amigos a través de las opciones de compartir integradas en la aplicación.
 
-## Further help
+La aplicación también cuenta con una barra lateral que muestra el historial de búsqueda reciente. Este historial se guarda en el local storage del navegador, lo que te permite acceder rápidamente a tus búsquedas anteriores y retomar donde lo dejaste. Esta funcionalidad te brinda una experiencia más fluida y personalizada al explorar gifs.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+### Texto creado por el chatGTP
